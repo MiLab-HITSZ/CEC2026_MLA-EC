@@ -1,9 +1,24 @@
 
 
-# Evolutionary Computation for Multi-Label Adversarial Examples
+# Competition on Evolutionary Computation in Multi-Label Adversarial Examples
 
 
-This project presents the source code of the competition on "Evolutionary Computation in MultiLabel Adversarial Examples"
+This repository provides the benchmark framework and source code for the
+Competition on Evolutionary Computation in Multi-Label Adversarial Examples.
+
+## Competition Results and Submitted Algorithms
+
+The final competition results and the source code of the three submitted
+algorithms are available in [`organized_submissions/`](organized_submissions/).
+That directory contains the final ranking, the eight benchmark results for each
+entrant, English algorithm descriptions, and the organized implementation of
+each submission.
+
+Final ranking:
+
+1. Juewen Fan - Gradient-Plateau SBA
+2. Chaofan Xie - Multi-Archive Search with SBA
+3. Gaoren Zhang - Structured Active-Label Attack
 
 ---
 
@@ -82,4 +97,3 @@ print("attack_rate:", problem.attack_rate())
 | `data_dir`      | Local path to `MLAE_cec_data`                       |
 
 ---
-
